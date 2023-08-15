@@ -24,6 +24,7 @@ Answer the following questions below:
   the `next` function is to ensure that the code continues to run after the data is returned. it will allow the rest of the functions to fire off once that required data is given
 
 - What are some issues with the following code? (consider all aspects: performance, structure, naming, etc)
+  the performance would be lacking because you would be awaiting all three links one after the other
 
 ```js
 async function getUsers() {
